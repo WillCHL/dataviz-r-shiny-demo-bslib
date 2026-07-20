@@ -4,11 +4,12 @@ App is a `bslib::navbar_page` app that is heavily based on two of the examples f
 
 Data is sourced from the [`plamerpenguins`](https://allisonhorst.github.io/palmerpenguins/) package.
 
-This repo contains an renv.lock files to enable `renv` package management.
+This repo contains an `renv.lock` file to enable `renv` package management.
 
 Install packages using:
 
 ```{r}
 renv::init()
-renv::restore()
 ```
+
+Then select "1: Restore the project from the lockfile." or run `renv::restore()` separately.
